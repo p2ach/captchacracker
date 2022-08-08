@@ -71,7 +71,7 @@ Before executing model training, training data image files in which the actual v
 
 ```python
 import glob
-import CaptchaCracker as cc
+import CaptchaCrack as cc
 
 # Training image data path
 train_img_path_list = glob.glob("../data/train_numbers_only/*.png")
@@ -93,7 +93,7 @@ model.save_weights("../model/weights.h5")
 ### Load a saved model to make predictions
 
 ```python
-import CaptchaCracker as cc
+import CaptchaCrack as cc
 
 # Target image data size
 img_width = 200

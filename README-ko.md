@@ -76,7 +76,7 @@ pip install numpy==1.19.5 tensorflow==2.5.0
 
 ```python
 import glob
-import CaptchaCracker as cc
+import CaptchaCrack as cc
 
 # 학습 이미지 데이터 경로
 train_img_path_list = glob.glob("../data/train_numbers_only/*.png")
@@ -98,7 +98,7 @@ model.save_weights("../model/weights.h5")
 ### 저장된 모델 불러와서 예측하기
 
 ```python
-import CaptchaCracker as cc
+import CaptchaCrack as cc
 
 # 타겟 이미지 크기
 img_width = 200
